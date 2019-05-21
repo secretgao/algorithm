@@ -26,7 +26,7 @@ function climbStairs($n) {
     $f0 = $f1 = 1;
     while (--$n > 0){
 	$msg = "n:{$n}";
-      $f1 = $f0 + $f1;
+        $f1 = $f0 + $f1;
 	$f0 = $f1 - $f0;
 	$msg.="f1:{$f1}--f0{$f0}";
 	echo $msg.PHP_EOL;
@@ -36,4 +36,11 @@ function climbStairs($n) {
 
 
 echo climbStairs(5);
+
+result:
+n:4f1:2--f01
+n:3f1:3--f02
+n:2f1:5--f03
+n:1f1:8--f05
+8
 ```
