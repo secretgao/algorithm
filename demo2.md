@@ -1,3 +1,5 @@
+
+```
 <?php
 /**
  * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
@@ -34,3 +36,4 @@ function climbStairs($n) {
 
 
 echo climbStairs(5);
+```
