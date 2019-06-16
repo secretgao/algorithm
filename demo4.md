@@ -179,7 +179,8 @@ $input = '今天好';
 $res = $trie->search($input);
 var_dump($res);
 
-//
+//匹配出来的词进行替换
+
 
 //
 ```
